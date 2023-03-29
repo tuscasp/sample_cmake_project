@@ -32,6 +32,7 @@ Install CMake and the build tools it relies on. I suggest using the LLVM toolcha
 1. Extract it to _C:\Program Files\<file_name>_. In My case it is: _C:\Program Files\llvm-mingw-20230320-msvcrt-x86_64_
 1. Add the directory you just created to your _Path_ variable : _Windows search >> Edit the system environmental variables >> Environmental variables ... >> User variables ... >> Path >> Edit >> New_ 
 1. Follow instructions on the official website for [Installing CMake](https://cmake.org/install/).
+1. Setup your environment variables by runing `.\setup_env.ps1` on the same PowerShell used for building.
 
 This is it! Time to build:
 ```

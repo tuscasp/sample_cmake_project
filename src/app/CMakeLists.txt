@@ -3,7 +3,7 @@
 )
 
 target_include_directories(project_executable PRIVATE
-    $(CMAKE_SOURCE_DIR)/include
+    ${CMAKE_CURRENT_SOURCE_DIR}
 )
 
 target_link_libraries(project_executable PRIVATE
